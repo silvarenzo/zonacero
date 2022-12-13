@@ -18,7 +18,7 @@ header {
     background-image: url(../assets/imagen/fondo.jpg);
     justify-content: space-between;
     padding: 15px 0 15px 0;
-    
+
 }
 
 nav {
@@ -32,7 +32,7 @@ nav {
     height: 100%;
     justify-content: space-evenly;
     align-items: center;
-    
+
 }
 
 .navegacion li a {
@@ -41,8 +41,8 @@ nav {
     border-radius: 15%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #000000;
-    
-    
+
+
 }
 
 .navegacion li a:hover {
@@ -67,7 +67,7 @@ header div img {
 
 h1 {
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .imagen_principal {
@@ -75,14 +75,27 @@ h1 {
     justify-content: center;
     border-radius: 20;
 
+
 }
 
 .imagen_principal img {
     display: flex;
     width: 80%;
     border-radius: 5%;
-    
+
 }
+
+.imagen_principal p {
+    font-size: 3rem;
+    color: rgb(53, 53, 53);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 15px black;
+    text-align: center;
+}
+
 
 footer {
     display: flex;
@@ -123,18 +136,6 @@ body {
     margin: 0%;
     background-attachment: fixed;
     background-image: url(../assets/imagen/fondo.jpg)
-    
-}
-
-
-
-
-.icon-cart {
-    display: flex;
-    align-items: flex-end;
-    width: 40px;
-    height: 40px;
-
 }
 
 img {
@@ -157,8 +158,8 @@ img {
 }
 
 .item img {
-    width: 100%;
-    height: 300%;
+    width: 50%;
+    height: 150%;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     transition: all .5s;
@@ -191,12 +192,12 @@ img {
     background-color: black;
     color: aliceblue;
     padding: 15px 15px;
+    justify-content: space-around;
     cursor: pointer;
 }
 
 .main {
     display: flex;
-    justify-content: space-around;
     padding: 30px 0 40px 0;
 }
 
@@ -207,17 +208,36 @@ img {
     margin-bottom: 40px;
     font-size: 60px;
     font-weight: 600;
-    color: black;
+    color: rgb(63, 63, 63);
+    animation-name: cambiarcolor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    text-shadow: 2px 5px rgb(0, 0, 0);
 }
 
-.title_principal{
-    
+@keyframes cambiarcolor {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(.3);
+    }
+
+    40% {
+        transform: scale(.6);
+    }
+
+    60% {
+        transform: scale(.9);
+    }
+
+    80% {
+        transform: scale(1);
+    }
+
 }
 
-p {
-    font-size: 15.7px;
-    margin-bottom: 40px;
-}
 
 .btn {
     display: inline-block;
@@ -258,7 +278,8 @@ h2 {
     margin-bottom: 20px;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     margin-bottom: 20px;
     padding: 7px;
@@ -275,7 +296,7 @@ textarea {
 
 #boton {
     background: #feffff;
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 20px;
 }
 
@@ -283,40 +304,51 @@ textarea {
     cursor: pointer;
 }
 
-@media   (max-width:480px) {
+@media (max-width:480px) {
     form {
         width: 100%;
     }
 }
 
-.remera{
+.remera {
     color: #000000;
-    
+
 }
-.buzos{
+
+.buzos {
     color: black
 }
 
-.pantalones{
+.pantalones {
     color: #000000;
 }
 
 .icono_facebook {
     color: #000000;
-    
+
 
 }
 
-.icono_tiktok{
+.icono_tiktok {
     color: #000000;
 
 }
 
-.icono_twiiter{
+.icono_twiiter {
     color: #000000;
 }
 
-.icono_whatsapp{
+.icono_whatsapp {
     color: #000000;
 
+}
+
+.sobre_nosotros_h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.sobre_nosotros_p {
+    display: flex;
+    justify-content: center;
 }
