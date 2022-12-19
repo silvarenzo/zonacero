@@ -70,34 +70,6 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.imagen_principal {
-    display: flex;
-    justify-content: center;
-    border-radius: 20;
-
-
-}
-
-.imagen_principal img {
-    display: flex;
-    width: 95%;
-    border-radius: 5%;
-    height: 800px;
-    
-
-}
-
-.imagen_principal p {
-    font-size: 5rem;
-    color: rgb(255, 255, 255);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 0 0 100px black;
-    text-align: center;
-}
-
 
 
 footer {
@@ -118,12 +90,6 @@ footer div p {
 
 }
 
-.redes_sociales {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    padding: 20px;
-}
 
 
 i {
@@ -326,25 +292,6 @@ textarea {
     color: #000000;
 }
 
-.icono_facebook {
-    color: #000000;
-
-
-}
-
-.icono_tiktok {
-    color: #000000;
-
-}
-
-.icono_twiiter {
-    color: #000000;
-}
-
-.icono_whatsapp {
-    color: #000000;
-
-}
 
 .sobre_nosotros_h3 {
     display: flex;
