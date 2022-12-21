@@ -90,8 +90,6 @@ footer div p {
 
 }
 
-
-
 i {
     font-size: 70px;
 }
@@ -316,6 +314,11 @@ h5{
     font-weight: 900;
 }
 
+.carousel-item{
+    height: 900px;
+
+}
+
 @media (max-width: 600px) {
     .conteiner-items {
         grid-template-columns: repeat(2, 1fr);
@@ -325,10 +328,17 @@ h5{
         width: 80%
     }
 
+    .navegacion {
+        display: flex;
+        flex-direction: column;
+    }
+
     .navegacion  li a {
         display: flex;
         flex-direction: column;
     }
+    
+    
 
     .imagen_principal{
         width: 100%;
