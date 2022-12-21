@@ -303,27 +303,38 @@ textarea {
     justify-content: center;
 }
 
+p{
+    text-align: center;
+    ;
+}
+
+h5{
+    color: #575757;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 900;
+}
 
 @media (max-width: 600px) {
     .conteiner-items {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .formulario {
-        width: 100%;
+        width: 80%
     }
-    .navegacion li a {
-        flex-direction: column;
+
+    .navegacion  li a {
         display: flex;
+        flex-direction: column;
     }
+
     .imagen_principal{
         width: 100%;
         
     }
-    .imagen_principal p{
-        
-        
-    }
-}
+
 
 
 
