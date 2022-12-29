@@ -319,7 +319,13 @@ h5{
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px){
+    .conteiner-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 1650px) {
     
     
     .conteiner-items {
@@ -348,5 +354,9 @@ h5{
     .imagen_principal{
         width: 100%;
         
+    }
+
+    .banner_promociones{
+        width: 100%;
     }
 
