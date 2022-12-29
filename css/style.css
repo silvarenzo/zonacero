@@ -111,6 +111,8 @@ img {
 
 .conteiner-items {
     display: grid;
+    flex-direction: column;
+    align-items: center;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 
@@ -151,6 +153,8 @@ img {
     flex-direction: column;
     gap: 10px;
 }
+
+
 
 .price {
     font-size: 18px;
@@ -319,12 +323,6 @@ h5{
 
 }
 
-@media (max-width: 600px){
-    .conteiner-items {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
 @media (max-width: 1650px) {
     
     
@@ -360,3 +358,10 @@ h5{
         width: 100%;
     }
 
+}
+@media (max-width: 600px){
+    .conteiner-items {
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+}
