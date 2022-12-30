@@ -323,13 +323,11 @@ h5{
 
 }
 
-.bannner_promociones{
-    width: 90%;
-    margin-left: 100px;
+
+.row{
     margin-top: 40px;
-    margin-bottom: 40px;
-    margin-right: 150px;
-} 
+    width: auto;
+}
 
 @media (max-width: 1650px) {
     
