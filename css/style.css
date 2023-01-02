@@ -35,6 +35,14 @@ nav {
 
 }
 
+.navegacion-footer li a{
+    color: #feffff;
+    
+}
+
+
+
+
 .navegacion li a {
     padding: 20px;
     background-image: url(../assets/imagen/fondo.jpg);
@@ -44,6 +52,7 @@ nav {
 
 
 }
+
 
 .navegacion li a:hover {
     background: rgb(187, 187, 187);
@@ -55,7 +64,6 @@ nav {
 
 header div {
     width: 50%;
-
 
 }
 
