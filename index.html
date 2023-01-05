@@ -27,24 +27,62 @@
 
     <body>
         <header>
-            <div class="logo">
-                <a href="./index.html"><img src="./assets/imagen/Zona Cero.jpg" alt=""></a>
-            </div>
-            <nav>
-                <ul class="navegacion">
-                    <li><a href="./index.html">INICIO</a></li>
-                    <li><a href="./pages/tienda.html">TIENDA</a></li>
-                    <li><a href="./pages/Acerca_De.html">SOBRE NOSOTROS</a></li>
-                    <li><a href="./pages/Contacto.html">CONTACTO</a></li>
-                    <li><a href="./pages/promociones.html">PROMOCIONES</a></li>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;"><img src="./assets/imagen/Zona Cero.jpg" alt=""></font>
+                        </font>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">INICIO</font>
+                                    </font>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/tienda.html">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">TIENDA</font>
+                                    </font>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/Acerca_De.html">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">NOSOTROS</font>
+                                    </font>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/Contacto.html">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">CONTACTO</font>
+                                    </font>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/promociones.html">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">PROMOCIONES</font>
+                                    </font>
+                                </a>
+                            </li>
+                        </ul>
 
-                </ul>
+                    </div>
+                </div>
             </nav>
         </header>
         <main>
-            <h1 class="title">
-                ZONA CERO
-            </h1>
+
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -58,8 +96,7 @@
                     <div class="carousel-item active">
                         <img src="./assets/imagen/Banner2.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Encontrar tu propio estilo no es fácil, pero una vez que lo encuentras te brinda
-                                felicidad completa. Te da confianza en ti mismo, siempre. (Yves Saint Laurent)</h5>
+                            <h5>El mejor sitio para encontrar ropa de calidad y al mejor precio</h5>
 
                         </div>
                     </div>
@@ -90,7 +127,7 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            
+
             <section>
                 <form action="" class="formulario">
                     <h2 class="title">Contacto</h2>
@@ -108,9 +145,9 @@
                 <div class="row p-5 bg-black text-white">
                     <div class="col-xs-12 col-md 6col-lg-3">
                         <p class="h3"></p>
-                        <img src="./assets/imagen/Zona Cero.jpg"  width="300" alt="">
+                        <img src="./assets/imagen/Zona Cero.jpg" width="300" alt="">
 
-                    </div> 
+                    </div>
                     <div class="col-xs-12 col-md 6col-lg-3">
                         <p class="h5 mb-4">CONTACTANOS</p>
                         <div class="mb-3">
@@ -123,20 +160,22 @@
                     </div>
                     <div class="col-xs-12 col-md 6col-lg-3">
                         <p class="h5 mb-4">UBICACION</p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52494.06327577724!2d-58.55192595580264!3d-34.68300435329489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc992081f3895%3A0x26264ea31b372a73!2sZone%20Cero!5e0!3m2!1ses-419!2sar!4v1672280661491!5m2!1ses-419!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52494.06327577724!2d-58.55192595580264!3d-34.68300435329489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc992081f3895%3A0x26264ea31b372a73!2sZone%20Cero!5e0!3m2!1ses-419!2sar!4v1672280661491!5m2!1ses-419!2sar"
+                            width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
                     </div>
                     <div class="col-xs-12 col-md 6col-lg-3">
                         <p class="h5 mb-4">NAVEGACION</p>
-                        <nav class="navegacion_footer">
-                            <ul>
-                                <li><a class="text-white" href="./index.html">INICIO</a></li>
-                                <li><a class="text-white" href="./pages/tienda.html">TIENDA</a></li>
-                                <li><a class="text-white" href="./pages/Acerca_De.html">SOBRE NOSOTROS</a></li>
-                                <li><a class="text-white" href="./pages/Contacto.html">CONTACTO</a></li>
-                                <li><a class="text-white" href="./pages/promociones.html">PROMOCIONES</a></li>
-            
+                        <nav>
+                            <ul class="navegacion-footer">
+                                <li><a href="./index.html">INICIO</a></li>
+                                <li><a href="./pages/tienda.html">TIENDA</a></li>
+                                <li><a href="./pages/Acerca_De.html">SOBRE NOSOTROS</a></li>
+                                <li><a href="./pages/Contacto.html">CONTACTO</a></li>
+                                <li><a href="./pages/promociones.html">PROMOCIONES</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -150,7 +189,7 @@
                 Todos los derechos reservados
             <p>
 </div>
-        </footer>
+</footer>
 
 </div>
 <!-- JavaScript Bundle with Popper -->
