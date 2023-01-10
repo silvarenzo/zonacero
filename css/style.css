@@ -43,10 +43,6 @@ nav ul li{
     margin: 0 5px;
 }
 
-
-
-
-
 .navegacion li a {
     padding: 20px;
     background-image: url(../assets/imagen/fondo.jpg);
@@ -79,6 +75,7 @@ header div {
 }
 
 header div img {
+    
     width: 15%;
     border-radius: 15%;
     padding: 5px;
@@ -94,9 +91,11 @@ h1 {
 footer {
     display: flex;
     flex-direction: column;
-    background-image: url(../assets/imagen/fondo.jpg);
-    margin-top: auto;
-    height: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+
+
 
 }
 
@@ -138,8 +137,8 @@ img {
 }
 
 .item {
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 75%;
     object-fit: cover;
     border-radius: 10%;
 
@@ -150,8 +149,10 @@ img {
 }
 
 .item img {
+    display: block;
+    margin: auto;
     width: 50%;
-    height: 150%;
+    height: 50%;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     transition: all .5s;
@@ -166,7 +167,7 @@ img {
 }
 
 .info-producto {
-    padding: 15px 30px;
+    padding: 5px 10px;
     line-height: 2;
     display: flex;
     flex-direction: column;
@@ -185,7 +186,7 @@ img {
     background: none;
     background-color: black;
     color: aliceblue;
-    padding: 15px 15px;
+    padding: 5px 5px;
     justify-content: space-around;
     cursor: pointer;
 }
@@ -232,6 +233,11 @@ img {
 
 }
 
+.boton_carrito{
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid gray;
+}
 
 .btn {
     display: inline-block;
@@ -255,13 +261,14 @@ img {
 }
 
 form {
+
     width: 450px;
     margin: auto;
     background: rgba(0, 0, 0, 0.4);
     padding: 10px 20px;
     box-sizing: border-box;
     border-radius: 7px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 h2 {
@@ -326,7 +333,8 @@ textarea {
 
 p{
     text-align: center;
-    ;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 h5{
@@ -343,9 +351,15 @@ h5{
 }
 
 
-.row{
-    margin-top: 40px;
-    width: auto;
+.sobre_nosotros_img{
+    margin: auto;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+    grid-gap: 20px;
 }
 
 @media (max-width: 1650px) {
@@ -362,7 +376,7 @@ h5{
 
     .navegacion {
         display: flex;
-        flex-direction: column;
+        flex-direction:row ;
     }
 
     .navegacion  li a {
@@ -383,6 +397,7 @@ h5{
     .banner_promociones{
         width: 100%;
     }
+    
 
 
 }
