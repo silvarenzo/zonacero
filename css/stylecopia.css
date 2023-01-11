@@ -18,7 +18,6 @@ header {
     background-image: url(../assets/imagen/fondo.jpg);
     justify-content: space-between;
     padding: 15px 0 15px 0;
-    
 }
 
 nav {
@@ -355,21 +354,17 @@ h5{
 .sobre_nosotros_img{
     margin: auto;
     width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
     margin-top: 100px;
     margin-bottom: 300px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 250px;
     grid-gap: 20px;
 }
 
 @media (max-width: 1650px) {
   
-    header {
-        flex-wrap: wrap;
-    }
+    
     
     .conteiner-items {
         grid-template-columns: repeat(2, 1fr);
@@ -413,8 +408,4 @@ h5{
     .banner_promociones{
         width: 100%;
     }
-    header {
-        flex-wrap: wrap;
-    }
-    
 }
