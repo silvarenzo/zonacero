@@ -1,0 +1,53 @@
+@media (max-width: 1650px) {
+  
+    header {
+        flex-wrap: wrap;
+    }
+    
+    .conteiner-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .formulario {
+        width: 80%
+    }
+
+    .navegacion {
+        display: flex;
+        flex-direction:row ;
+    }
+
+    .navegacion  li a {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .carousel-item{
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagen_principal{
+        width: 100%;
+        
+    }
+
+    .banner_promociones{
+        width: 100%;
+    }
+    
+
+
+}
+@media (max-width: 600px){
+    .conteiner-items {
+        grid-template-columns: repeat(1, 1fr);    
+    }
+    .banner_promociones{
+        width: 100%;
+    }
+    header {
+        flex-wrap: wrap;
+    }
+    
+}

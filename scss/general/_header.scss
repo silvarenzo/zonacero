@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    background-color: $secundary;
+    justify-content: space-between;
+    padding: 15px 0 15px 0;
+    
+}
+header div {
+    width: 50%;
+
+}
+
+header div img {
+    
+    width: 15%;
+    border-radius: 15%;
+    padding: 5px;
+}

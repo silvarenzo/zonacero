@@ -417,4 +417,9 @@ h5{
         flex-wrap: wrap;
     }
     
+    .sobre_nosotros_img{
+        grid-template-columns: repeat(1,1fr);
+        width: 75%;
+        margin-top: 25%;
+    }
 }
