@@ -86,27 +86,31 @@ nav ul li {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+
 .conteiner-items img {
   height: auto;
   width: 100%;
 }
+
 .conteiner-items .item {
   width: 75%;
   height: 75%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 10%;
 }
+
 .conteiner-items .item .item img {
   display: block;
   margin: auto;
   width: 50%;
   height: 50%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 10px 10px 0 0;
   transition: all 0.5s;
 }
+
 .conteiner-items .item .item figure {
   overflow: hidden;
 }
@@ -133,42 +137,55 @@ nav ul li {
   header {
     flex-wrap: wrap;
   }
+
   .conteiner-items {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .formulario {
     width: 80%;
   }
+
   .navegacion {
     display: flex;
     flex-direction: row;
   }
+
   .navegacion li a {
     display: flex;
     flex-direction: column;
   }
+
   .carousel-item {
     width: 100%;
     height: 100%;
   }
+
   .imagen_principal {
     width: 100%;
   }
+
   .banner_promociones {
     width: 100%;
   }
 }
+
 @media (max-width: 600px) {
   .conteiner-items {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .banner_promociones {
     width: 100%;
   }
+
   header {
     flex-wrap: wrap;
   }
 }
+
 .btn {
   background-color: grey;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
