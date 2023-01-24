@@ -169,6 +169,20 @@ img {
   transform: scale(1.2);
 }
 
+#galeria .col-lg-4 {
+  margin: 0 ;
+  padding: 25px;
+}
+
+#galeria img {
+  width: 100%;
+  height: 250px;
+}
+
+#galeria img:hover{
+  border: 5px solid #f7f7f7;
+}
+
 .info-producto {
   padding: 5px 10px;
   line-height: 2;
@@ -440,7 +454,6 @@ h5 {
   }
 }
 
-footer
-}
+
 
 /*# sourceMappingURL=main.css.map */
